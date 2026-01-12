@@ -9,22 +9,21 @@ export const TestimonialSection: React.FC<TestimonialSectionProps> = (): React.J
       <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr]">
         <div className="flex flex-col items-center justify-center gap-8 px-6 py-12 sm:px-12 sm:py-16 lg:gap-[110px] lg:px-[100px] lg:py-[164px]">
           <div className="flex flex-col gap-[20px]">
-            <h2 className="text-[48px] font-bold tracking-[-1.8px] text-white">
+            <h2 className="text-[32px] font-bold tracking-[-1.8px] text-white md:text-[40px] lg:text-[48px]">
               Comfortable buds <br />
               with better sound.
             </h2>
-            <p className="text-[19px] font-normal text-indigo-100 opacity-65">
+            <p className="text-[16px] font-normal text-indigo-100 opacity-65 md:text-[17px] lg:text-[19px]">
               We share common trends and strategies <br />
               for improving your rental income.
             </p>
           </div>
 
-          <div className="flex items-start justify-start gap-[22px]">
+          <div className="flex flex-col items-center gap-[20px]">
             <img src="/ProfilReview.png" alt="Esther Bell" className="h-12 w-12 rounded-full object-cover" />
-            <div className="flex flex-col gap-[23px]">
-              <p className="text-[21px] text-white">
-                "You made it so simple. My new site <br />
-                is so much faster and easier to work with than my old site."
+            <div className="flex flex-col items-center gap-[15px]">
+              <p className="text-center text-[17px] text-white md:text-[19px] lg:text-[21px]" style={{ fontFamily: 'var(--font-rubik)' }}>
+                "You made it so simple. My new site is so much faster and easier to work with than my old site."
               </p>
               <p className="text-[15px] font-bold text-white opacity-65">Esther Bell</p>
             </div>
