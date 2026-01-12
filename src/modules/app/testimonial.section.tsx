@@ -10,11 +10,11 @@ export const TestimonialSection: React.FC<TestimonialSectionProps> = (): React.J
         <div className="flex flex-col items-center justify-center gap-8 px-6 py-12 sm:px-12 sm:py-16 lg:gap-[110px] lg:px-[100px] lg:py-[164px]">
           <div className="flex flex-col gap-[20px]">
             <h2 className="text-[32px] font-bold tracking-[-1.8px] text-white md:text-[40px] lg:text-[48px]">
-              Comfortable buds <br />
+              Comfortable buds <br className="hidden lg:inline" />
               with better sound.
             </h2>
             <p className="text-[16px] font-normal text-indigo-100 opacity-65 md:text-[17px] lg:text-[19px]">
-              We share common trends and strategies <br />
+              We share common trends and strategies <br className="hidden lg:inline" />
               for improving your rental income.
             </p>
           </div>

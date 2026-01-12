@@ -27,7 +27,7 @@ export const HeroSection: React.FC<HeroSectionProps> = (): React.JSX.Element => 
               Sound, that sounds better!
             </h1>
             <p className="mx-auto mb-[13px] text-[19px] text-[dark-color] opacity-70">
-              With lots of unique blocks, you can easily build a page without coding. <br />
+              With lots of unique blocks, you can easily build a page without coding. <br className="hidden lg:inline" />
               Build your next consultancy website within few minutes.
             </p>
           </div>
