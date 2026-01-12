@@ -19,11 +19,13 @@ export const TestimonialSection: React.FC<TestimonialSectionProps> = (): React.J
             </p>
           </div>
 
-          <div className="flex flex-col items-center gap-[20px]">
+          <div className="flex flex-col items-center gap-[20px] lg:flex-row lg:items-start lg:justify-start lg:gap-[22px]">
             <img src="/ProfilReview.png" alt="Esther Bell" className="h-12 w-12 rounded-full object-cover" />
-            <div className="flex flex-col items-center gap-[15px]">
-              <p className="text-center text-[17px] text-white md:text-[19px] lg:text-[21px]" style={{ fontFamily: 'var(--font-rubik)' }}>
-                "You made it so simple. My new site is so much faster and easier to work with than my old site."
+            <div className="flex flex-col items-center gap-[15px] lg:items-start lg:gap-[23px]">
+              <p className="text-center text-[17px] text-white md:text-[19px] lg:text-left lg:text-[21px]" style={{ fontFamily: 'var(--font-rubik)' }}>
+                "You made it so simple. My new site <br className="hidden lg:inline" />
+                is so much faster and easier to work <br className="hidden lg:inline" />
+                with than my old site."
               </p>
               <p className="text-[15px] font-bold text-white opacity-65">Esther Bell</p>
             </div>
