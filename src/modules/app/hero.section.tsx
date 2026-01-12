@@ -26,7 +26,7 @@ export const HeroSection: React.FC<HeroSectionProps> = (): React.JSX.Element => 
             <h1 className="mb-[7px] text-4xl font-bold tracking-[-2px] text-[dark-color] md:text-5xl lg:text-6xl">
               Sound, that sounds better!
             </h1>
-            <p className="mx-auto mb-[13px] text-[19px] text-[dark-color]">
+            <p className="mx-auto mb-[13px] text-[19px] text-[dark-color] opacity-70">
               With lots of unique blocks, you can easily build a page without coding. <br />
               Build your next consultancy website within few minutes.
             </p>

@@ -7,7 +7,7 @@ type FeaturesSectionProps = Record<string, never>
 export const FeaturesSection: React.FC<FeaturesSectionProps> = (): React.JSX.Element => {
   return (
     <section className="w-full bg-indigo-50">
-      <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr]">
         <div className="w-full">
           <Image
             src="/Running Image.png"
@@ -21,11 +21,12 @@ export const FeaturesSection: React.FC<FeaturesSectionProps> = (): React.JSX.Ele
         <div className="flex flex-col gap-8 px-6 py-12 sm:px-12 sm:py-16 lg:gap-[110px] lg:px-[100px] lg:py-[164px]">
           <div className="flex flex-col gap-[20px]">
             <h2 className="text-[48px] font-bold tracking-[-1.8px] text-[dark-color]">
-              Listen music anytime, anywhere.
+              Listen music <br />
+              anytime, anywhere.
             </h2>
             <p className="text-[19px] font-normal text-[dark-color] opacity-70">
-              We share common trends and strategies for improving your rental income and making sure you stay in high
-              demand.
+              We share common trends and strategies <br />
+              for improving your rental income.
             </p>
           </div>
 
